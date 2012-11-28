@@ -453,7 +453,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"FuturaStd-Medium"
+				"name"		"FuturaStd-Heavy"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
@@ -2443,6 +2443,16 @@ Scheme
 			{
 				"name"		"FuturaStd-Medium"
 				"tall"		"60"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy11"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"11"
 				"additive"	"0"
 				"antialias" "1"
 			}
