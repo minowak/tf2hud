@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/build_menu/base.res"
 {
 	"ItemNameLabel"
 	{	
@@ -22,7 +22,7 @@
 		"brighttext"	"0"
 	}
 	
-	"ItemBackground"	
+	"ItemBackground"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
@@ -34,8 +34,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"ProgressOffWhiteTransparent"
+		"icon"			"hud_menu_item_bg"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"ItemBG"
@@ -51,26 +51,23 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"OmpWhiteBG"
 	}
 	
-	"CantBuildReason"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CantBuildReason"
-		"font"			"Futura9"
-		"fgcolor"		"225 30 30 255"
+	"BuildingIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildingIcon"
 		"xpos"			"5"
 		"ypos"			"33"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
-		"textAlignment"	"Center"
+		"scaleImage"	"1"	
+		"icon"			"hud_menu_sentry_build"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"MetalIcon"	
@@ -86,7 +83,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"225 30 30 255"
+		"iconColor"		"OmpShadow"
 	}
 	
 	"CostLabel"
@@ -94,7 +91,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
+		"fgcolor"		"OmpShadow"
 		"xpos"			"17"
 		"ypos"			"18"
 		"zpos"			"1"
@@ -113,7 +110,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
+		"fgcolor"		"OmpShadow"
 		"xpos"			"5"
 		"ypos"			"18"
 		"zpos"			"1"

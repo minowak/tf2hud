@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/destroy_menu/sentry_active.res"
 {
 	"ItemNameLabel"
 	{	
@@ -35,7 +35,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"ProgressOffWhiteTransparent"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"ItemBG"
@@ -54,79 +54,38 @@
 		"fillcolor"		"OmpDarkBG"
 	}
 	
-	"CantBuildReason"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CantBuildReason"
-		"font"			"Futura9"
-		"fgcolor"		"225 30 30 255"
-		"xpos"			"5"
-		"ypos"			"33"
-		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
-		"textAlignment"	"Center"
-	}
-	
-	"MetalIcon"	
+	"DestroyIcon"	
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
+		"fieldName"		"DestroyIcon"
 		"xpos"			"5"
-		"ypos"			"19"
+		"ypos"			"26"
 		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"225 30 30 255"
+		"icon"			"ico_demolish"
+		"iconColor"		"255 255 255 255"
 	}
-	
-	"CostLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
-		"xpos"			"17"
-		"ypos"			"18"
-		"zpos"			"1"
-		"wide"			"43"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
-	}
-	
-	"ModeLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ModeLabel"
-		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
+		
+	"BuildingIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"BuildingIcon"
 		"xpos"			"5"
-		"ypos"			"18"
-		"zpos"			"1"
+		"ypos"			"26"
+		"zpos"			"2"
 		"wide"			"50"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"East"	
+		"scaleImage"	"1"	
+		"icon"			"obj_status_sentrygun_1"
+		"iconColor"		"255 255 255 128"
 	}
-	
+		
 	"NumberBg"	
 	{
 		"ControlName"	"CIconPanel"

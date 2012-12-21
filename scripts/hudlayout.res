@@ -926,10 +926,10 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-145"
-		"ypos"			"r150"
-		"wide"			"290"
-		"tall"			"160"
+		"xpos"			"c-130"
+		"ypos"			"c88"
+		"wide"			"260"
+		"tall"			"108"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -938,10 +938,10 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-145"
-		"ypos"			"r150"
-		"wide"			"290"
-		"tall"			"160"
+		"xpos"			"c-130"
+		"ypos"			"c88"
+		"wide"			"260"
+		"tall"			"108"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -950,13 +950,10 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"r200"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"xpos"			"c-130"
+		"ypos"			"c100"
+		"wide"			"260"
+		"tall"			"96"
 		"PaintBackgroundType"	"0"
 	}	
 	

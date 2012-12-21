@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/build_menu/base_unavailable.res"
 {
 	"ItemNameLabel"
 	{	
@@ -59,7 +59,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
 		"font"			"Futura9"
-		"fgcolor"		"225 30 30 255"
+		"fgcolor"		"OmpText"
 		"xpos"			"5"
 		"ypos"			"33"
 		"zpos"			"2"
@@ -69,8 +69,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
+		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 	}
 	
 	"MetalIcon"	
@@ -86,7 +88,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"225 30 30 255"
+		"iconColor"		"OmpText"
 	}
 	
 	"CostLabel"
@@ -94,7 +96,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
+		"fgcolor"		"OmpText"
 		"xpos"			"17"
 		"ypos"			"18"
 		"zpos"			"1"
@@ -113,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
+		"fgcolor"		"OmpText"
 		"xpos"			"5"
 		"ypos"			"18"
 		"zpos"			"1"

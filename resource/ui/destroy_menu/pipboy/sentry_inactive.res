@@ -1,4 +1,4 @@
-"Resource/UI/build_menu/base_cant_afford.res"
+"Resource/UI/destroy_menu/sentry_inactive.res"
 {
 	"ItemNameLabel"
 	{	
@@ -54,14 +54,14 @@
 		"fillcolor"		"OmpDarkBG"
 	}
 	
-	"CantBuildReason"
+	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CantBuildReason"
+		"fieldName"		"NotBuiltLabel"
 		"font"			"Futura9"
-		"fgcolor"		"225 30 30 255"
+		"fgcolor"		"OmpText"
 		"xpos"			"5"
-		"ypos"			"33"
+		"ypos"			"26"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
@@ -69,63 +69,32 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
+		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"5"
-		"ypos"			"19"
-		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"225 30 30 255"
-	}
-	
-	"CostLabel"
+
+	"UnavailableLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"CostLabel"
-		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
-		"xpos"			"17"
-		"ypos"			"18"
-		"zpos"			"1"
-		"wide"			"43"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%metal%"
-		"textAlignment"	"Left"	
-	}
-	
-	"ModeLabel"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"ModeLabel"
-		"font"			"Futura11"
-		"fgcolor"		"225 30 30 255"
+		"fieldName"		"UnavailableLabel"
+		"font"			"Futura9"
+		"fgcolor"		"OmpText"
 		"xpos"			"5"
-		"ypos"			"18"
-		"zpos"			"1"
+		"ypos"			"26"
+		"zpos"			"2"
 		"wide"			"50"
-		"tall"			"12"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"East"	
-	}
+		"labelText"		"#Hud_Menu_Build_Unavailable"
+		"textAlignment"	"Center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}		
 	
 	"NumberBg"	
 	{
@@ -140,7 +109,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"255 255 255 128"
 	}
 	
 	"NumberLabel"
