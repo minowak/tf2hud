@@ -2490,6 +2490,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy16"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavy20"
 		{
 			"1"
@@ -2509,6 +2519,26 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"outline"	"1"
+			}
+		}
+		"FuturaHeavy24"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy32"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FuturaHeavy36"

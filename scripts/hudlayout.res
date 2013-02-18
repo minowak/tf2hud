@@ -243,9 +243,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c10"
+		"ypos"		"c2"
 		"wide"	 	"200"
-		"tall"	 	"40"
+		"tall"	 	"56"
 		"priority"	"40"
 		"priority_lodef"	"5"
 	}
@@ -256,9 +256,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c100"
+		"ypos"		"c92"
 		"wide"	 	"200"
-		"tall"	 	"40"
+		"tall"	 	"56"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -272,10 +272,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c100"
+		"ypos"		"c92"
 		"zpos"		"1" // omp -- place above health cross.
 		"wide"	 	"200"
-		"tall"	 	"40"
+		"tall"	 	"56"
 		"priority"	"35"
 	}
 	
