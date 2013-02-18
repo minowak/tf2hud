@@ -125,15 +125,6 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"OmpText"
-					
-				if_mvm
-				{
-					"xpos"				"0"
-					"ypos"				"25"
-					"wide"				"55"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
 			}
 			
 			"classimage"
@@ -152,10 +143,6 @@
 				
 				if_mvm
 				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -173,11 +160,6 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
@@ -263,11 +245,6 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"fgcolor"		"OmpRespawnTime"
-				
-				if_mvm
-				{
-					"ypos"			"17"
-				}
 			}
 
 			"respawntimecover"
@@ -341,23 +318,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
 		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"6"
-			"wide"					"500"
-			"tall"					"180"
-	
-			"team1_player_delta_x"			"52"
-		}		
 	}
 
 	"topbar"
@@ -488,7 +449,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r210"
-		"ypos"			"c16"
+		"ypos"			"c113"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"1000"
@@ -526,7 +487,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"OmpMediumBG"
+			"fillcolor"		"OmpLightBG"
 		}
 		
 		"itemmodelpanel"
